@@ -1,8 +1,15 @@
 .col-sm{
     width: 25%;
-    margin: 18.72px 0px;
+    margin: 18px 0px;
+    padding-left:3%;
 }
 
 .col-lg{
     width: 70%;
 }
+
+.resumeRow{
+    display: flex;
+    padding:10px;
+}
+

@@ -19,25 +19,25 @@ export default function () {
         </div>
       </div>
       <div>
-        <form action="submit" className="form">
+        <form action="https://formsubmit.co/ba86f9be23cfac1cc5de44d67e4df59c" method="POST" className="form">
           <div className="row">
             <div className="col-2">
               <label htmlFor="firstName">First Name *</label>
-              <input type="text" id="firstName" />
+              <input type="text" name="firstName" id="firstName" />
             </div>
             <div className="col-2">
               <label htmlFor="lastName">Last Name *</label>
-              <input type="text" id="lastName" />
+              <input type="text" name="lastName" id="lastName" />
             </div>
           </div>
           <div className="row">
             <div className="col-2">
               <label htmlFor="email">Email *</label>
-              <input type="text" id="email" />
+              <input type="email" name="email" id="email" />
             </div>
             <div className="col-2">
               <label htmlFor="subject">Subject *</label>
-              <input type="text" id="subject" />
+              <input type="text" name="_subject" id="subject" />
             </div>
           </div>
           <div className="row">
@@ -46,7 +46,7 @@ export default function () {
             </div>
           </div>
           <div className="row">
-              <textarea type="text" id="message" />
+              <textarea type="text" name="message" id="message" />
           </div>
           <div className="row">
             <button className="longBtn"><b>Submit</b></button>

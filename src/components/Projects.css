@@ -1,22 +1,31 @@
-.projects{
-   padding: 2%; 
+.projects {
+  padding: 1%;
 }
 
 .halfView {
   width: 50%;
+  padding: 1%;
+  align-items: center; /* Center vertically */
 }
-
 
 .project1 {
   display: flex;
-  margin: 2%;
-  align-items: flex-start;
+  justify-content: space-around;
+  /* align-items: flex-start; */
   margin-bottom: 10%;
 }
+
+.even img {
+  display: block; 
+  margin-left: auto; 
+  margin-right: 3%; 
+}
+
 
 img {
   max-height: 300px;
   width: auto;
+  border-radius: 20px;
 }
 
 @media (max-width: 600px) {
@@ -26,15 +35,4 @@ img {
   .halfView {
     width: 100%;
   }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span {
-  text-align: left;
 }
