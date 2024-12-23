@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3%;
+  padding-left: 1%;
+  /* position: fixed;
+  width: 98%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  */
+}
+
+h3 {
+  display: flex;
+  justify-content: start;
+}
+.header div {
+  display: flex;
+}
+
+.header div p {
+  padding: 2%;
+}
+
+.header div p btn {
+  padding: 2%;
+}
+
+.headerBtn{
+  background-color: inherit;
+  border:0px;
+  font-size: inherit;
+  font-weight: 200;
+  font-style: inherit;
+}
+
+.profileBtn{
+  background-color: inherit;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border:0px;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: inherit;
+}
+

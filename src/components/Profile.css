@@ -1,0 +1,67 @@
+.profile {
+  display: flex;
+  margin: 10%;
+  justify-content: center;
+}
+.profile img {
+  border-radius: 50%;
+  border: solid 2px rgb(206, 210, 91);
+  transition: transform 0.3s ease, max-width 0.3s ease; /* Smooth transition */
+}
+
+.profile img:hover {
+  box-shadow: 0 0 20px rgba(255, 225, 0, 0.3);
+  border: solid 1px rgb(238, 224, 60);
+  transform: scale(1.05); /* Increase size */
+  /* max-width: 353px; Optional: increase max-width to avoid overflow */
+}
+
+.description {
+  margin: 3%;
+  max-width: 360px;
+}
+.text-left {
+  text-align: left;
+}
+
+.circleContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.red {
+  background-color: #eb2d1c;
+}
+.yellow {
+  background-color: #f0c93c;
+}
+.blue {
+  background-color: #80d8da;
+}
+.circle button{
+  background-color: inherit;
+  border:none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight:500;
+}
+.circle {
+  border-radius: 50%;
+  border: solid 1px rgb(0, 0, 0);
+  transition: var(
+    --trans1,
+    border-color 0.4s ease 0s,
+    background-color 0.4s ease 0s
+  );
+  margin: 1%;
+  font-size: 1.2em;
+  width: 130px;
+  height: 110px;
+  /* Flexbox to center the text */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.circle:hover {
+  background-color: transparent;
+}

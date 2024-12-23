@@ -1,0 +1,40 @@
+.projects{
+   padding: 2%; 
+}
+
+.halfView {
+  width: 50%;
+}
+
+
+.project1 {
+  display: flex;
+  margin: 2%;
+  align-items: flex-start;
+  margin-bottom: 10%;
+}
+
+img {
+  max-height: 300px;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .project1 {
+    display: block;
+  }
+  .halfView {
+    width: 100%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  text-align: left;
+}
