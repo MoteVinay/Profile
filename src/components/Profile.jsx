@@ -1,5 +1,6 @@
 import React from "react";
 import "./Profile.css";
+import myImage from "../assets/Profile.jpg";
 
 export default function Profile({ setView }) {
   function handleclick(newView) {
@@ -9,7 +10,7 @@ export default function Profile({ setView }) {
   return (
     <div className="profile">
       <div>
-        <img src="../assets/Profile.jpg" />
+        <img src={myImage} />
       </div>
       <div className="description">
         <h1 className="text-left">Hello</h1>
